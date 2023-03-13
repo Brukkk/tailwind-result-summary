@@ -523,96 +523,36 @@ video {
   margin-bottom: 1rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.inline-block {
-  display: inline-block;
 }
 
 .flex {
   display: flex;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
 .h-40 {
   height: 10rem;
-}
-
-.h-10 {
-  height: 2.5rem;
 }
 
 .h-5 {
   height: 1.25rem;
 }
 
-.w-16 {
-  width: 4rem;
-}
-
 .w-40 {
   width: 10rem;
-}
-
-.w-\[32ch\] {
-  width: 32ch;
-}
-
-.w-10 {
-  width: 2.5rem;
 }
 
 .w-5 {
   width: 1.25rem;
 }
 
+.w-\[32ch\] {
+  width: 32ch;
+}
+
 .w-full {
   width: 100%;
-}
-
-.max-w-\[50px\] {
-  max-width: 50px;
-}
-
-.max-w-xs {
-  max-width: 20rem;
-}
-
-.max-w-\[3rem\] {
-  max-width: 3rem;
-}
-
-.max-w-\[8rem\] {
-  max-width: 8rem;
-}
-
-.max-w-\[4rem\] {
-  max-width: 4rem;
-}
-
-.max-w-\[6rem\] {
-  max-width: 6rem;
-}
-
-.max-w-\[\|0rem\] {
-  max-width: |0rem;
-}
-
-.max-w-\[10rem\] {
-  max-width: 10rem;
-}
-
-.max-w-\[9rem\] {
-  max-width: 9rem;
 }
 
 .flex-row {
@@ -635,46 +575,12 @@ video {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
 .gap-2 {
   gap: 0.5rem;
 }
 
-.self-center {
-  align-self: center;
-}
-
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
-}
-
-.rounded-\[50\%\] {
-  border-radius: 50%;
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
-.rounded-3xl {
-  border-radius: 1.5rem;
-}
-
-.rounded-b-2xl {
-  border-bottom-right-radius: 1rem;
-  border-bottom-left-radius: 1rem;
-}
-
-.rounded-b-full {
-  border-bottom-right-radius: 9999px;
-  border-bottom-left-radius: 9999px;
 }
 
 .rounded-b-3xl {
@@ -682,19 +588,9 @@ video {
   border-bottom-left-radius: 1.5rem;
 }
 
-.bg-purple-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(88 28 135 / var(--tw-bg-opacity));
-}
-
 .bg-slate-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(71 85 105 / var(--tw-bg-opacity));
-}
-
-.bg-purple-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(126 34 206 / var(--tw-bg-opacity));
 }
 
 .bg-slate-700 {
@@ -716,16 +612,12 @@ video {
   --tw-gradient-to: #6b21a8;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .p-4 {
   padding: 1rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
+.p-8 {
+  padding: 2rem;
 }
 
 .text-center {
@@ -741,11 +633,6 @@ video {
   line-height: 2rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
@@ -756,40 +643,12 @@ video {
   line-height: 1.75rem;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
-.font-extrabold {
-  font-weight: 800;
-}
-
 .font-bold {
   font-weight: 700;
 }
 
-.font-medium {
-  font-weight: 500;
-}
-
-.text-slate-500 {
-  --tw-text-opacity: 1;
-  color: rgb(100 116 139 / var(--tw-text-opacity));
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
-.text-gray-300 {
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-gray-400 {
@@ -797,16 +656,16 @@ video {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
-.opacity-70 {
-  opacity: 0.7;
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .opacity-90 {
   opacity: 0.9;
-}
-
-@font-face {
-  font-family: "HankenGrotesk";
-
-  src: url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format("truetype");
 }
